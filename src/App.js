@@ -1,11 +1,17 @@
 import "./App.css";
-import { HomePage } from "./pages/HomePage/HomePage.jsx";
+import { Logout } from "./pages/auth/Logout/Logout";
+import { Signup } from "./pages/auth/Signup/Signup";
+// import { Login } from "./pages/auth/Login/Login";
+// import { HomePage } from "./pages/HomePage/HomePage.jsx";
 import { Nav } from "./util/Nav/Nav.jsx"
 function App() {
   return (
     <div className="App">
       <Nav />
-      <HomePage />
+      {/* <HomePage /> */}
+      {/* <Login /> */}
+      {/* <Logout /> */}
+      <Signup />
     </div>
   );
 }
