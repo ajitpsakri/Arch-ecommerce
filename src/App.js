@@ -1,6 +1,9 @@
 import "./App.css";
-import { Logout } from "./pages/auth/Logout/Logout";
-import { Signup } from "./pages/auth/Signup/Signup";
+// import { Product1 } from "./pages/Product1/Product1";
+// import { Product2 } from "./pages/Product2/Product2";
+import { CardMang } from "./pages/CardMang/CardMang";
+// import { Logout } from "./pages/auth/Logout/Logout";
+// import { Signup } from "./pages/auth/Signup/Signup";
 // import { Login } from "./pages/auth/Login/Login";
 // import { HomePage } from "./pages/HomePage/HomePage.jsx";
 import { Nav } from "./util/Nav/Nav.jsx"
@@ -11,7 +14,10 @@ function App() {
       {/* <HomePage /> */}
       {/* <Login /> */}
       {/* <Logout /> */}
-      <Signup />
+      {/* <Signup /> */}
+      <CardMang />
+      {/* <Product2 /> */}
+      {/* <Product1 /> */}
     </div>
   );
 }
