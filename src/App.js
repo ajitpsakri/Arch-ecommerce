@@ -1,41 +1,25 @@
 import "./App.css";
-import logo from "./logo.png";
-
+import { Wishlist } from "./pages/Wishlist/Wishlist";
+// import { Product1 } from "./pages/Product1/Product1";
+// import { Product2 } from "./pages/Product2/Product2";
+// import { CardMang } from "./pages/CardMang/CardMang";
+// import { Logout } from "./pages/auth/Logout/Logout";
+// import { Signup } from "./pages/auth/Signup/Signup";
+// import { Login } from "./pages/auth/Login/Login";
+// import { HomePage } from "./pages/HomePage/HomePage.jsx";
+import { Nav } from "./util/Nav/Nav.jsx"
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} alt="mockBee logo" width="180" height="180" />
-        <h1 className="brand-title">
-          Welcome to <span>mockBee!</span>
-        </h1>
-        <p className="brand-description">
-          Get started by editing <code>src/App.js</code>
-        </p>
-        <div className="links">
-          <a
-            href="https://mockbee.netlify.app/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Explore mockBee
-          </a>
-          <a
-            href="https://mockbee.netlify.app/docs/api/introduction"
-            target="_blank"
-            rel="noreferrer"
-          >
-            API Documentation
-          </a>
-          <a
-            href="https://github.com/neogcamp/mockBee"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Contribute
-          </a>
-        </div>
-      </header>
+      <Nav />
+      {/* <HomePage /> */}
+      {/* <Login /> */}
+      {/* <Logout /> */}
+      {/* <Signup /> */}
+      {/* <CardMang /> */}
+      {/* <Product2 /> */}
+      {/* <Product1 /> */}
+      <Wishlist />
     </div>
   );
 }

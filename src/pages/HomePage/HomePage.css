@@ -1,0 +1,32 @@
+@import url(../../App.css);
+:root{
+    --black:black;
+}
+/* || General HTML  */
+
+/* || Component lib modifications */
+.card-basic p{
+    color: var(--black);
+}
+
+.image-responsive{
+    width: 100%;
+}
+.card--container .card-basic{
+    max-width: 78rem;
+}
+
+/* || site specific */
+.card--container{
+    display: flex;
+    max-width: 100%;
+}
+
+.card--container{
+    display: flex;
+    justify-content: space-between;
+}
+.container__main-content{ 
+    margin:9rem 5rem 2rem 5rem;
+}
+

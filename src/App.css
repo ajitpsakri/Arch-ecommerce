@@ -1,3 +1,23 @@
+@import "https://sharp-ui.netlify.app/css/all-css-file.css";
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+:root{
+  --grey:#E5E5E5;
+  --light-grey:#f7f7f7;
+  --white:white;
+  --black:black;
+  --grey:grey;
+  --blue:#3B82F6;
+  --red:#FF1B1B;
+}
+html{
+  font-size: 62.5%;
+}
+
+
 .App {
   text-align: center;
 }
@@ -49,3 +69,287 @@
   font-size: 1.2rem;
   margin: 1rem;
 }
+/* # Reusable css blocks */
+/* ## position */
+.pos-abs-top-right{
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+/* ## length */
+/* ### width  */
+
+.width-10{
+  width: 10%;
+}
+.width-40{
+  width: 40%;
+}.width-30{
+  width: 30%;
+}
+.width-80{
+  width: 80%;
+}
+.width-100{
+  width: 100%;
+}
+.text-center{
+  text-align: center;
+}
+.link-reset{
+  text-decoration: none;
+  color: inherit;
+}
+.remove-underline{
+  text-decoration: none;
+}
+.list-reset li{
+  list-style: none;
+}
+
+/* ## border block */
+.br-round{
+  border-radius: 100%;
+}
+.br-radius-0 {
+  border-radius: 0px;
+}
+.br-radius-1 {
+  border-radius: 1px;
+}
+.br-radius-2 {
+  border-radius: 2px;
+}
+.br-radius-3 {
+  border-radius: 3px;
+}
+.br-radius-4 {
+  border-radius: 4px;
+}
+.br-radius-5 {
+  border-radius: 5px;
+}
+.br-radius-6 {
+  border-radius: 6px;
+}
+.br-radius-7 {
+  border-radius: 7px;
+}
+.br-radius-8 {
+  border-radius: 8px;
+}
+.br-radius-9 {
+  border-radius: 9px;
+}
+.br-radius-10 {
+  border-radius: 10px;
+}
+.br-radius-11 {
+  border-radius: 11px;
+}
+.br-radius-12 {
+  border-radius: 12px;
+}
+.br-radius-13 {
+  border-radius: 13px;
+}
+.br-radius-14 {
+  border-radius: 14px;
+}
+.br-radius-15 {
+  border-radius: 15px;
+}
+.br-radius-16 {
+  border-radius: 16px;
+}
+.br-radius-17 {
+  border-radius: 17px;
+}
+.br-radius-18 {
+  border-radius: 18px;
+}
+.br-radius-19 {
+  border-radius: 19px;
+}
+
+/* ## color blocks  */
+.shadow-basic{
+  box-shadow: 1px 1px 10px var(--grey);
+}
+.bg-grey{
+  background-color: var(--grey);
+}
+.bg-light-grey{
+  background-color: var(--light-grey);
+}
+.bg-white{
+  background-color: var(--white);
+}
+.text-black{
+  color: var(--black);
+}
+.text-grey{
+  color: var(--grey);
+}
+.text-white{
+  color: var(--white);
+}
+.text-red{
+  color: var(--red)
+}
+
+/* ## flexbox reusable blocks */
+.flex{
+  display:flex;
+  flex-wrap: wrap;
+}
+.flex-col{
+  flex-direction: column;
+}
+.flex-justify-center{
+  justify-content: center;
+}
+.flex-justi-spac-betw{
+  justify-content: space-between;
+}
+.flex-justi-spac-even{
+  justify-content: space-evenly;
+}
+.flex-align-center{
+  align-items: center;
+}
+.gap-5{
+  gap: 5px;
+}
+.gap-1rem{
+  gap: 1rem;
+}
+.gap-1_5rem{
+  gap: 1.5rem;
+}
+.gap-2rem{
+  gap: 2rem;
+}
+/* ## css boxmodel blocks */
+
+/* ### margin */
+.mg-1rem{
+  margin: 1rem;
+}
+.mg-0-1rem{
+  margin: 0rem 1rem;
+}
+.mg-1rem-0{
+  margin: 1rem 0rem;
+}
+.mg-top-1rem{
+  margin-top: 1rem;
+}
+.mg-bottom-1rem{
+  margin-bottom: 1rem;
+}
+.mg-left-1rem{
+  margin-left: 1rem;
+}
+.mg-right-1rem{
+  margin-right: 1rem;
+}
+/* ----------------- */
+.mg-0-1_5rem{
+  margin: 0rem 1.5rem;
+}
+.mg-1_5rem-0{
+  margin: 1.5rem 0rem;
+}
+.mg-top-1_5rem{
+  margin-top: 1.5rem;
+}
+.mg-bottom-1_5rem{
+  margin-bottom: 1.5rem;
+}
+.mg-left-1_5rem{
+  margin-left: 1.5rem;
+}
+.mg-right-1_5rem{
+  margin-right: 1.5rem;
+}
+/* ----------------- */
+.mg-0-2rem{
+  margin: 0rem 2rem;
+}
+.mg-2rem-0{
+  margin: 2rem 0rem;
+}
+.mg-top-2rem{
+  margin-top: 2rem;
+}
+.mg-bottom-2rem{
+  margin-bottom: 2rem;
+}
+.mg-left-2rem{
+  margin-left: 2rem;
+}
+.mg-right-2rem{
+  margin-right: 2rem;
+}
+/* ----------------- */
+.mg-0-2_5rem{
+  margin: 0rem 2.5rem;
+}
+.mg-2_5rem-0{
+  margin: 2.5rem 0rem;
+}
+.mg-top-2_5rem{
+  margin-top: 2.5rem;
+}
+.mg-bottom-2_5rem{
+  margin-bottom: 2.5rem;
+}
+.mg-left-2_5rem{
+  margin-left: 2.5rem;
+}
+.mg-right-2_5rem{
+  margin-right: 2.5rem;
+}
+/* ### padding */
+.pd-1010rem{
+  padding: 1rem 0rem 1rem 0rem;
+}
+.pd-1rem{
+  padding: 1rem;
+}
+.pd-1_5rem{
+  padding: 1.5rem;
+}
+.pd-2rem{
+  padding: 2rem;
+}
+.pd-2_5rem{
+  padding: 2.5rem;
+}
+
+
+/* # component lib modifications */
+
+.nav-container{
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  grid-area: nav;
+  z-index: 2;
+}
+.nav-container .btn-sm{
+  width: 12rem;
+  height: 4.2rem;
+}
+.btn-float{
+  padding: 3px 5px;
+}
+
+/* #  General store styles */
+
+
