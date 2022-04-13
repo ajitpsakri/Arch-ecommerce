@@ -2,7 +2,7 @@ import './Signup.css'
 const Signup = () => {
     return (
         <div
-            className="container__main-content flex flex-justify-center flex-align-center"
+            className="log__main-content flex flex-justify-center flex-align-center"
         >
             <div className="auth-login-container bg-white pd-2rem br-radius-11 width-30">
                 <div className="header text-center">

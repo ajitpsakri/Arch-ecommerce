@@ -80,6 +80,19 @@ html{
 /* ## length */
 /* ### width  */
 
+.max-wid-78rem{
+  max-width: 78rem;
+}
+.max-wid-100{
+  max-width: 100%;
+}
+.max-wid-20rem{
+  max-width: 20rem;
+}
+.max-wid-50rem{
+  max-width: 50rem;
+}
+
 .width-10{
   width: 10%;
 }
@@ -90,6 +103,9 @@ html{
 }
 .width-80{
   width: 80%;
+}
+.width-95{
+  width: 95%;
 }
 .width-100{
   width: 100%;
@@ -187,7 +203,7 @@ html{
   background-color: var(--white);
 }
 .text-black{
-  color: var(--black);
+   color: var(--black) !important;
 }
 .text-grey{
   color: var(--grey);

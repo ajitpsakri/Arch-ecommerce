@@ -3,7 +3,7 @@ import './Logout.css'
 const Logout = () => {
     return (
         <div
-            className="container__main-content flex flex-justify-center flex-align-center bg-grey"
+            className="log__main-content flex flex-justify-center flex-align-center bg-grey"
         >
             <div className="auth-login-container bg-white pd-2rem br-radius-11 width-30">
                 <div className="main text-center">

@@ -1,8 +1,6 @@
-/* @import url(../../App.css); */
 @import url(../Product2/Product2.css); 
-/* update above link */
 
-.body{
+.card-body{
     display: grid;
     grid-template: 10rem 5fr 1fr/1fr 1fr 1fr 1fr 1fr;
     grid-template-areas: 
@@ -10,7 +8,7 @@
     "main main main main main"
     "footer footer footer footer footer";
 }
-.container__main-content{
+.card__main-content{
     display: grid;
     grid-template: 9% 91%/1fr 1fr 1fr 1fr 1fr;
     grid-template-areas: 

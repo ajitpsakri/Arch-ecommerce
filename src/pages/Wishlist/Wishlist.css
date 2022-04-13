@@ -1,5 +1,4 @@
-@import url(../../App.css);
-.body{
+.wishlist-body{
     display: grid;
     grid-template: 10rem 5fr 1fr/1fr 1fr 1fr 1fr 1fr;
     grid-template-areas: 
@@ -7,7 +6,7 @@
     "main main main main main"
     "footer footer footer footer footer";
 }
-.container__main-content{
+.wishlist__main-content{
     grid-area:main;
 }
 .footer{
