@@ -1,5 +1,5 @@
 import './Logout.css'
-
+import { Link } from "react-router-dom";
 const Logout = () => {
     return (
         <div
@@ -9,9 +9,11 @@ const Logout = () => {
                 <div className="main text-center">
                     <h1 className="pd-1010rem">Logged out</h1>
                     <p className="pd-1010rem">Goodbye,Thanks for using Arc-store</p>
-                    <button className="btn btn-outline-primary width-100 pd-1010rem">
-                        Sign in again
-                    </button>
+                    <Link className="" to="/login">
+                        <button className="btn btn-primary width-100 pd-1010rem">
+                            Sign in again
+                        </button>
+                    </Link>
                 </div>
             </div>
         </div>

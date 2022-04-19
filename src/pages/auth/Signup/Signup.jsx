@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import './Signup.css'
 const Signup = () => {
     return (
@@ -47,9 +48,8 @@ const Signup = () => {
                             Create New Account
                         </button>
                         <span>
-                            <a className="link-reset" href="../login/login.html"
-                            >Already have an account </a
-                            >
+                            <Link className="link-reset" to="/login">Already have an account
+                            </Link>
                         </span>
                     </div>
                 </div>

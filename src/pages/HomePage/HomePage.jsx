@@ -1,5 +1,6 @@
 import "./HomePage.css";
 import poster from '../../assets/images/pexels-mikhail-nilov-6620338.jpg'
+import { Link } from "react-router-dom";
 const HomePage = () => {
     return (
         <section className="home__main-content">
@@ -18,9 +19,8 @@ const HomePage = () => {
                 />
             </div>
             <div className="card--container max-wid-100 flex flex-justi-spac-betw">
-                <a
+                <Link to="/productpage1"
                     className="link-reset"
-                    href="./pages/product-page-01/product-page-01.html"
                 >
                     <div className="card card-basic max-wid-78rem">
                         <h3>Verticle Product page</h3>
@@ -29,18 +29,18 @@ const HomePage = () => {
                             praesentium totam reprehenderit.
                         </p>
                         <button className="btn btn-secondary">
-                            <a
+                            <Link
+                                to="/productpage1"
                                 className="link-reset text-white"
-                                href="./pages/product-page-01/product-page-01.html"
                             >
                                 Button1
-                            </a>
+                            </Link>
                         </button>
                     </div>
-                </a>
-                <a
+                </Link>
+                <Link
                     className="link-reset"
-                    href="./pages/product-page-02/product-page-02.html"
+                    to="/productpage2"
                 >
                     <div className="card card-basic max-wid-78rem">
                         <h3>Horizontal Product page</h3>
@@ -49,15 +49,15 @@ const HomePage = () => {
                             praesentium totam reprehenderit.
                         </p>
                         <button className="btn btn-secondary">
-                            <a
+                            <Link
+                                to="/productpage2"
                                 className="link-reset text-white"
-                                href="./pages/product-page-02/product-page-02.html"
                             >
                                 Button1
-                            </a>
+                            </Link>
                         </button>
                     </div>
-                </a>
+                </Link>
             </div>
         </section>)
 }

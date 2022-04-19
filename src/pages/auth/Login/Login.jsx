@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import './Login.css'
 
 const Login = () => {
@@ -40,9 +41,8 @@ const Login = () => {
                     <div className="footer-actionables flex flex-col text-center">
                         <button className="btn login-btn btn-primary">Login</button>
                         <span>
-                            <a className="link-reset" href="../signup/signup.html"
-                            >Create New Account </a
-                            >
+                            <Link className="link-reset" to="/signup">Create New Account
+                            </Link>
                         </span>
                     </div>
                 </div>

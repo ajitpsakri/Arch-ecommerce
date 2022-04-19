@@ -16,7 +16,7 @@ function App() {
       <Nav />
       <Routes>
         <Route path="/" element={<HomePage />} />
-        <Route path="/login" element={<Login />} />
+        <Route path="login" element={<Login />} />
         <Route path="logout" element={<Logout />} />
         <Route path="signup" element={<Signup />} />
         <Route path="cardmanag" element={<CardMang />} />
