@@ -13,16 +13,16 @@ import { Nav } from "./util/Nav/Nav.jsx"
 function App() {
   return (
     <div className="App">
-      <Nav />
+
       <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="login" element={<Login />} />
-        <Route path="logout" element={<Logout />} />
-        <Route path="signup" element={<Signup />} />
-        <Route path="cardmanag" element={<CardMang />} />
-        <Route path="productpage1" element={<Product1 />} />
-        <Route path="productpage2" element={<Product2 />} />
-        <Route path="wishlist" element={< Wishlist />} />
+        <Route path="/" element={<><Nav /><HomePage /></>} />
+        <Route path="login" element={<><Nav /><Login /></>} />
+        <Route path="logout" element={<><Nav /><Logout /></>} />
+        <Route path="signup" element={<><Nav /><Signup /></>} />
+        <Route path="cardmanag" element={<><Nav /><CardMang /></>} />
+        <Route path="productpage1" element={<><Nav /><Product1 /></>} />
+        <Route path="productpage2" element={<><Nav /><Product2 /></>} />
+        <Route path="wishlist" element={<><Nav />< Wishlist /></>} />
         <Route path="*" element={<UnknownPage />} />
       </Routes>
     </div>
