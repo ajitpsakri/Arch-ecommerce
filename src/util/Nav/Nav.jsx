@@ -1,11 +1,10 @@
+import { Link } from "react-router-dom";
 import "./Nav.css";
 const Nav = () => {
   return (
     <nav className="nav-container">
       <h3>
-        <a className="link-reset" href="#">
-          Arch Store
-        </a>
+        <Link className="link-reset" to="/">Arch Store</Link>
       </h3>
       <div className="nav-search">
         <label for="search">
@@ -15,29 +14,29 @@ const Nav = () => {
       </div>
       <div className="nav-actionables">
         <div className="btn-container">
-          <a className="link-reset" href="./pages/auth/login/login.html">
+          <Link className="link-reset" to="/login">
             <button className="btn btn-sm btn-default">Login</button>
-          </a>
+          </Link>
         </div>
         <div className="nav-badge-cont badge-container">
           <div className="icon-container">
-            <a className="link-reset" href="./pages/wishlist/wishlist.html">
+            <Link className="link-reset" to="/wishlist">
               <i className="nav-icon far fa-heart">
                 <span className="nav-count badge-count">7</span>
               </i>
-            </a>
+            </Link>
           </div>
           <div className="icon-container">
-            <a className="link-reset" href="./pages/card-manag/card-manag.html">
+            <Link className="link-reset" to="/cardmanag">
               <i className="nav-icon fas fa-shopping-cart">
                 <span className="nav-count badge-count">7</span>
               </i>
-            </a>
+            </Link>
           </div>
           <div className="icon-container">
-            <a className="link-reset" href="./pages/auth/logout/logout.html">
+            <Link className="link-reset" to="/logout">
               <i className="nav-icon fas fa-sign-out-alt"> </i>
-            </a>
+            </Link>
           </div>
         </div>
       </div>

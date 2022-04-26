@@ -2,8 +2,8 @@ import './Wishlist.css'
 
 const Wishlist = () => {
     return (
-        <div className="body">
-            <section className="container__main-content flex gap-1rem flex-justi-spac-even">
+        <div className="wishlist-body">
+            <section className="wishlist__main-content flex gap-1rem flex-justi-spac-even">
                 <div className="card card-ecommerce">
                     <div className="card-ecom-header">
                         <img

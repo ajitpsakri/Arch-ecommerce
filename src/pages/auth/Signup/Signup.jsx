@@ -1,8 +1,9 @@
+import { Link } from 'react-router-dom';
 import './Signup.css'
 const Signup = () => {
     return (
         <div
-            className="container__main-content flex flex-justify-center flex-align-center"
+            className="log__main-content flex flex-justify-center flex-align-center"
         >
             <div className="auth-login-container bg-white pd-2rem br-radius-11 width-30">
                 <div className="header text-center">
@@ -47,9 +48,8 @@ const Signup = () => {
                             Create New Account
                         </button>
                         <span>
-                            <a className="link-reset" href="../login/login.html"
-                            >Already have an account </a
-                            >
+                            <Link className="link-reset" to="/login">Already have an account
+                            </Link>
                         </span>
                     </div>
                 </div>

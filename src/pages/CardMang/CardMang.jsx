@@ -2,8 +2,8 @@ import './CardMang.css'
 
 const CardMang = () => {
     return (
-        <div className='body'>
-            <section class="container__main-content">
+        <div className='card-body'>
+            <section class="card__main-content">
                 <h2 class="cart-heading text-black">Cart items(2)</h2>
                 <section class="main-wrapper">
                     <section

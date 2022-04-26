@@ -1,8 +1,8 @@
 import './Product2.css'
 const Product2 = () => {
     return (
-        <div className='body'>
-            <aside className="bg-white pd-1_5rem">
+        <div className='product-body'>
+            <aside className="bg-white pd-1_5rem product-aside">
                 <div className="header__content flex flex-align-center flex-justi-spac-betw">
                     <h2>Filter</h2>
                     <p className="text-underline">Clear</p>
@@ -127,9 +127,9 @@ const Product2 = () => {
                     </li>
                 </ul>
             </aside>
-            <section className="container__main-content flex gap-1rem flex-justi-spac-even">
-                <div className="card card-ecommerce">
-                    <div className="card-ecom-header">
+            <section className="product__main-content flex gap-1rem flex-justi-spac-even">
+                <div className="card card-ecommerce flex max-wid-50rem">
+                    <div className="card-ecom-header max-wid-20rem">
                         <img
                             src="https://live.staticflickr.com/7105/7139684419_4c993fb528_b.jpg"
                             alt="random image"
@@ -169,8 +169,8 @@ const Product2 = () => {
                         </div>
                     </div>
                 </div>
-                <div className="card card-ecommerce">
-                    <div className="card-ecom-header">
+                <div className="card card-ecommerce flex max-wid-50rem">
+                    <div className="card-ecom-header max-wid-20rem">
                         <img
                             src="https://live.staticflickr.com/7105/7139684419_4c993fb528_b.jpg"
                             alt="random image"
@@ -210,8 +210,8 @@ const Product2 = () => {
                         </div>
                     </div>
                 </div>
-                <div className="card card-ecommerce">
-                    <div className="card-ecom-header">
+                <div className="card card-ecommerce flex max-wid-50rem">
+                    <div className="card-ecom-header max-wid-20rem">
                         <img
                             src="https://live.staticflickr.com/7105/7139684419_4c993fb528_b.jpg"
                             alt="random image"
@@ -251,8 +251,8 @@ const Product2 = () => {
                         </div>
                     </div>
                 </div>
-                <div className="card card-ecommerce">
-                    <div className="card-ecom-header">
+                <div className="card card-ecommerce flex max-wid-50rem">
+                    <div className="card-ecom-header max-wid-20rem">
                         <img
                             src="https://live.staticflickr.com/7105/7139684419_4c993fb528_b.jpg"
                             alt="random image"
@@ -292,8 +292,8 @@ const Product2 = () => {
                         </div>
                     </div>
                 </div>
-                <div className="card card-ecommerce">
-                    <div className="card-ecom-header">
+                <div className="card card-ecommerce flex max-wid-50rem">
+                    <div className="card-ecom-header max-wid-20rem">
                         <img
                             src="https://live.staticflickr.com/7105/7139684419_4c993fb528_b.jpg"
                             alt="random image"
@@ -333,8 +333,8 @@ const Product2 = () => {
                         </div>
                     </div>
                 </div>
-                <div className="card card-ecommerce">
-                    <div className="card-ecom-header">
+                <div className="card card-ecommerce flex max-wid-50rem">
+                    <div className="card-ecom-header max-wid-20rem">
                         <img
                             src="https://live.staticflickr.com/7105/7139684419_4c993fb528_b.jpg"
                             alt="random image"
@@ -374,8 +374,8 @@ const Product2 = () => {
                         </div>
                     </div>
                 </div>
-                <div className="card card-ecommerce">
-                    <div className="card-ecom-header">
+                <div className="card card-ecommerce flex max-wid-50rem">
+                    <div className="card-ecom-header max-wid-20rem">
                         <img
                             src="https://live.staticflickr.com/7105/7139684419_4c993fb528_b.jpg"
                             alt="random image"
@@ -415,8 +415,8 @@ const Product2 = () => {
                         </div>
                     </div>
                 </div>
-                <div className="card card-ecommerce">
-                    <div className="card-ecom-header">
+                <div className="card card-ecommerce flex max-wid-50rem">
+                    <div className="card-ecom-header max-wid-20rem">
                         <img
                             src="https://live.staticflickr.com/7105/7139684419_4c993fb528_b.jpg"
                             alt="random image"

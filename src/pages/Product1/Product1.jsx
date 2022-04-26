@@ -1,15 +1,15 @@
 import './Product1.css'
 const Product1 = () => {
     return (
-        <div className='body'>
-            <aside className="bg-white pd-1_5rem">
+        <div className='product-body'>
+            <aside className="bg-white pd-1_5rem product-aside">
                 <div className="header__content flex flex-align-center flex-justi-spac-betw">
                     <h2>Filter</h2>
                     <p className="text-underline">Clear</p>
                 </div>
                 <h2>Price</h2>
 
-                <datalist className="text-grey" list="price">
+                <datalist className="text-grey flex flex-justi-spac-betw width-95" list="price">
                     <option value="50" label="50"></option>
                     <option value="70"></option>
                     <option value="90"></option>
@@ -22,7 +22,7 @@ const Product1 = () => {
                     <option value="190"></option>
                     <option value="100" label="200"></option>
                 </datalist>
-                <input className="input--range" type="range" list="price" />
+                <input className="input--range width-95" type="range" list="price" />
                 <h2>Category</h2>
                 <ul className="list-reset">
                     <li>
@@ -127,7 +127,7 @@ const Product1 = () => {
                     </li>
                 </ul>
             </aside>
-            <section className="container__main-content flex gap-1rem flex-justi-spac-even">
+            <section className="product__main-content flex gap-1rem flex-justi-spac-even">
                 <div className="card card-ecommerce">
                     <div className="card-ecom-header">
                         <img

@@ -1,9 +1,2 @@
-
 @import url(../Product1/Product1.css);
-.card-ecommerce{ /* if this causes conflicts then change class name*/
-    display: flex;
-    max-width: 50rem;
-}
-.card-ecom-header{
-    max-width: 20rem;
-}
+
